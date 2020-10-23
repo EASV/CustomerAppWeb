@@ -1,0 +1,5 @@
+<h1>Cities</h1>
+<h3 *ngFor="let city of cities$ | async">
+  <div>Zipcode: {{city.zipCode}}</div>
+  <div>Name: {{city.name}}</div>
+</h3>
